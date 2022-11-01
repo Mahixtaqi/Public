@@ -1,0 +1,9 @@
+cd $HOME
+rm -rf AKING-PRO
+pip install requests
+pip install bs4
+pip install mechanize
+rm -rf LOL-AKING
+git clone --depth=1 https://github.com/HANNAN-404/LOL-AKING
+cd LOL-AKING
+python LOL_AKING.py
